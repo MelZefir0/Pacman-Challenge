@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacman-Challenge", "Pacman-Challenge\Pacman-Challenge.csproj", "{0C2C5F8F-295E-4168-9C4F-CB762A9B4B4A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A4D6751B-E209-4833-BFBB-1098BE1DBD34}"
+	ProjectSection(SolutionItems) = preProject
+		KataPacman-seq.txt = KataPacman-seq.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
