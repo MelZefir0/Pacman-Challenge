@@ -8,8 +8,13 @@ namespace Pacman_Challenge
 {
     public class Pacman
     {
-        public int points = 5000;
-        public int lives = 3;
+        public int StartPoints { get; set; }
+        public int Lives { get; set; }
 
+        public Pacman()
+        {
+            StartPoints = 5000;
+            Lives = 3;
+        }
     }
 }
